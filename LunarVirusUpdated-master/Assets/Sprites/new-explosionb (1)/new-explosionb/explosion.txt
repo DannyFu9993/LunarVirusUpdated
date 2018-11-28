@@ -1,0 +1,11 @@
+explosion00 = 0 0 89 89
+explosion01 = 90 0 89 89
+explosion02 = 180 0 89 89
+explosion03 = 270 0 89 89
+explosion04 = 360 0 89 89
+explosion05 = 450 0 89 89
+explosion06 = 540 0 89 89
+explosion07 = 630 0 89 89
+explosion08 = 720 0 89 89
+explosion09 = 810 0 89 89
+explosion10 = 900 0 89 89
