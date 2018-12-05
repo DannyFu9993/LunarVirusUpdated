@@ -57,23 +57,7 @@ public class PlayerController : MonoBehaviour
 
 
         }
-        // Code for firing laser fire left side
-
-        //if (Input.GetKeyDown(KeyCode.A))
-        //{
-        //    Instantiate(laser, laserSpawn.transform.position, laserSpawn.transform.rotation);
-        //      myTime = 0.0f;
-        // }
-
-        //Code for firing laser fire left side
-        /*
-        if (Input.GetButton("a") && myTime > fireRate)
-        {
-            Instantiate(laser, laserSpawn.transform.position, laserSpawn.transform.rotation);
-            myTime = 0.0f;
-            speed = speed * -1;
-        }
-        */
+      
 
 
 
@@ -87,25 +71,19 @@ public class PlayerController : MonoBehaviour
        
         float horiz = Input.GetAxis("Horizontal");
 
-        //float jump = Input.GetAxis("Jump");
+     
 
 
 
-        //float verti = Input.GetAxis("Vertical");
-        //verti += jumpHeight
         Vector2 movement = new Vector2(horiz, 0);
 
-        //rb2d.AddForce(transform.up * 10);
+      
 
         rb2d.velocity = movement * speed;
      
     }
  
-    void JumpFalse()
-    {
-       
-    }
-
+    
 
 
 }
