@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "LVPlatest1"]
+	url = https://github.com/DannyFu9993/LunaVirus-Playtest-1
+	fetch = +refs/heads/*:refs/remotes/LVPlatest1/*
+[remote "origin"]
+	url = https://github.com/DannyFu9993/LunarVirus.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
