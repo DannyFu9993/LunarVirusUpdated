@@ -17,7 +17,16 @@ public class PlayerControllerP : MonoBehaviour
     float groundRadius = 0.2f;
     public LayerMask whatIsGround;
    
-   
+    
+
+
+
+
+
+
+
+
+
 
     private Rigidbody2D rb2d;
     private float myTime = 0f;
@@ -28,8 +37,8 @@ public class PlayerControllerP : MonoBehaviour
     {
 
         rb2d = GetComponent<Rigidbody2D>();
-       
 
+       
     }
     
     // Update is called once per frame
@@ -102,12 +111,13 @@ public class PlayerControllerP : MonoBehaviour
 
 
     }
+    
 
- 
-    void JumpFalse()
-    {
-       
-    }
+
+
+
+
+
 
 
 

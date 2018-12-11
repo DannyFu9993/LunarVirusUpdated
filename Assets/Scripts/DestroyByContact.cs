@@ -22,7 +22,7 @@ public class DestroyByContact : MonoBehaviour
         }
         if (gameControllerScript == null)
         {
-            Debug.Log("Cannot find GameController script on GameController object");
+  
         }
     }
 
