@@ -7,7 +7,10 @@ TagManager:
   - Ground
   - Ceiling
   - Wall
+<<<<<<< HEAD
   - Door
+=======
+>>>>>>> 9bce5219a5f900ad4e6434ff0f2f475294c0d23d
   layers:
   - Default
   - TransparentFX
@@ -17,7 +20,11 @@ TagManager:
   - UI
   - 
   - 
+<<<<<<< HEAD
   - player
+=======
+  - 
+>>>>>>> 9bce5219a5f900ad4e6434ff0f2f475294c0d23d
   - 
   - 
   - 
